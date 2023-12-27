@@ -15,7 +15,7 @@ const Add = (props) => {
 
     const addVol = () => {
         const num = /[0-9]/;
-        const letters = /(a-א)/
+        const letters = /(a-z)/
         if (data.title.length > 20) {
             alert('title is up to 20 chars');
         } else if (num.test(data.location) || data.location.includes(' '))  {
